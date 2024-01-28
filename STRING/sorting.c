@@ -1,3 +1,5 @@
+// WAP TO SORT THE GIVEN STRING.
+
 #include <stdio.h>
 #include <string.h>
 int main()

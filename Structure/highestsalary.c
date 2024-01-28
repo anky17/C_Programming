@@ -1,5 +1,6 @@
 /* Create a structure student having data, members name, roll-number and percentage. Complete the program to display the name of student
 having highest percentage. */
+
 #include <stdio.h>
 int i;
 struct student

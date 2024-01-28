@@ -1,3 +1,5 @@
+// WAP TO PASS ARRAY AS AN ARGUMENT IN A FUNCTION.
+
 #include <stdio.h>
 void pass(int[], int);
 int main()
@@ -19,4 +21,3 @@ void pass(int x[], int y)
     printf("%d ", x[i]);
   }
 }
-// clang pass.c -o aa && ./aa

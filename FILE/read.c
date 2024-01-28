@@ -1,4 +1,5 @@
 // WAP to read data stored in a file input.txt
+
 #include <stdio.h>
 #include <stdlib.h>
 int main()

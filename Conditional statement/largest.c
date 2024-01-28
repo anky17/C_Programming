@@ -1,23 +1,25 @@
-#include<stdio.h>
+// WAP TO FIND THE LARGEST NUMBER FROM GIVEN 3 INPUTS.
+
+#include <stdio.h>
 int main()
 {
-    int a,b,c,largest=0;
+    int a, b, c, largest = 0;
     printf("Enter the value of x,y,z:\n");
-    scanf("%d%d%d",&a,&b,&c);
-    if(a>b)
+    scanf("%d%d%d", &a, &b, &c);
+    if (a > b)
     {
-        if(a>c)
-        largest=a;
+        if (a > c)
+            largest = a;
         else
-        largest=c;
+            largest = c;
     }
     else
     {
-        if(b>c)
-        largest=b;
+        if (b > c)
+            largest = b;
         else
-        largest=c;
+            largest = c;
     }
-    printf("Largest number=%d",largest);
+    printf("Largest number=%d", largest);
     return 0;
 }

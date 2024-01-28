@@ -1,3 +1,5 @@
+// WAP TO PRINT FIRST N PRIME NUMBER BY USING FOR LOOP.
+
 #include <stdio.h>
 int main()
 {
@@ -21,7 +23,6 @@ int main()
       printf("%d ", i);
       check++;
     }
-    
-  }
+    }
   return 0;
 }

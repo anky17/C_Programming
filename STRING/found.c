@@ -1,3 +1,5 @@
+// WAP TO CHECK WHETHER A CHARACTER IS IN THE STRING OR NOT.
+
 #include <stdio.h>
 #include <string.h>
 int main()

@@ -1,3 +1,5 @@
+// WAP TO CHECK WHETHER A GIVEN NUMBER IS PRIME OR NOT.
+
 #include <stdio.h>
 int main()
 {
@@ -22,4 +24,3 @@ int main()
     }
     return 0;
 }
-// clang prime.c -o ank && ./ank

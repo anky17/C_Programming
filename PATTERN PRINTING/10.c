@@ -1,12 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int i,j,a=1;
-    for(i=1; i<=5; i++)
+    int i, j, a = 1;
+    for (i = 1; i <= 5; i++)
     {
-        for(j=1; j<=i; j++)
+        for (j = 1; j <= i; j++)
         {
-            printf("%d\t",a);
+            printf("%d\t", a);
             a++;
         }
         printf("\n");

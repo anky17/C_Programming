@@ -1,7 +1,9 @@
+// WAP TO PRINT PRIME NUMBERS BETWEEN 1 TO 50.
+
 #include <stdio.h>
 int main()
 {
-    int i, j, fact=0, count = 0;
+    int i, j, fact = 0, count = 0;
     ;
     for (i = 1; i <= 50; i++)
     {

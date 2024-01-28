@@ -1,3 +1,5 @@
+// WAP TO CHECK WHETHER THE GIVEN STRING IS PALINDROME OR NOT.
+
 #include <stdio.h>
 int main()
 {

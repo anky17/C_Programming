@@ -7,7 +7,8 @@
     "SUMFROM1TON.C": "cpp",
     "SECINHR.C": "cpp",
     "PALINDROME.C": "cpp",
-    "POINTERTOASTRUCTURE.C": "cpp"
+    "POINTERTOASTRUCTURE.C": "cpp",
+    "sumof1ton.C": "cpp"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "clang",

@@ -1,3 +1,5 @@
+// PROBLEM OF BSc.CSIT I SEM.
+
 #include <stdio.h>
 #include <string.h>
 struct employee
@@ -27,5 +29,3 @@ int main()
     }
     return 0;
 }
-
-// clang 2079.c -o ank && ./ank

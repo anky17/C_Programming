@@ -1,4 +1,5 @@
 // WAP TO PRINT SUM OF FIRST 10 ODD NUMBER.
+
 #include <stdio.h>
 int main()
 {

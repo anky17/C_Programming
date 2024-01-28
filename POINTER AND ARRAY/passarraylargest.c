@@ -1,4 +1,5 @@
 // WAP THAT PASSES AN ARRAY TO FUNCTION AND PRINT THE LARGEST AND SMALLEST ELEMENT.
+
 #include <stdio.h>
 void pass(int[], int);
 int main()

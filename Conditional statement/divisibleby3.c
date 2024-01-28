@@ -1,17 +1,20 @@
-#include<stdio.h>
+// WAP TO UNDERSTAND THE NESTED IF-ELSE. 
+
+#include <stdio.h>
 int main()
 {
     int num;
     printf("Enter any number:");
-    scanf("%d",&num);
-    if(num%3==0)
+    scanf("%d", &num);
+    if (num % 3 == 0)
     {
         printf("The number is exactly divisible by 3.\n");
-        if(num%2==0)
+        if (num % 2 == 0)
         {
             printf("It is even number");
         }
-        else{
+        else
+        {
             printf("It is odd number");
         }
     }
@@ -20,5 +23,4 @@ int main()
         printf("The number is not divisible by 3.");
     }
     return 0;
-
 }

@@ -1,4 +1,5 @@
 // STRUCTURE OF BOOK WITH BOOK NAME,AUTHOR,PUBLISHER.
+
 #include <stdio.h>
 #include <string.h>
 struct book
@@ -25,5 +26,3 @@ int main()
     }
     return 0;
 }
-
-// clang 2078.c -o ank && ./ank

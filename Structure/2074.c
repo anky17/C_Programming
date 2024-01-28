@@ -1,5 +1,6 @@
 /* Create a structure student having data, members name, roll-number and percentage. Complete the program to display the name of student
 having percentage greater than or equal to 60. */
+
 #include <stdio.h>
 int main()
 {
@@ -30,5 +31,3 @@ int main()
     }
     return 0;
 }
-
-// clang 2074.c -o ank && ./ank

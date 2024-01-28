@@ -1,23 +1,24 @@
-#include<stdio.h>
+// WAP TO INPUT AND DISPLAY THE 2D MATRIX.
+
+#include <stdio.h>
 int main()
 {
-    int a[3][3],i,j;
+    int a[3][3], i, j;
     printf("Enter the array elements:");
-    for(i=0; i<3; i++)
+    for (i = 0; i < 3; i++)
     {
-        for(j=0; j<3; j++)
+        for (j = 0; j < 3; j++)
         {
-            scanf("%d",&a[i][j]);
+            scanf("%d", &a[i][j]);
         }
     }
-    for(i=0; i<3; i++)
+    for (i = 0; i < 3; i++)
     {
-        for(j=0; j<3; j++)
+        for (j = 0; j < 3; j++)
         {
-            printf("%d ",a[i][j]);
+            printf("%d ", a[i][j]);
         }
         printf("\n");
     }
     return 0;
 }
-// clang 3*3mat.c -o ank && ./ank

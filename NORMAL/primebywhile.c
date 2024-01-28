@@ -1,24 +1,20 @@
-#include<stdio.h>
+// CHECK PRIME OR NOT BY USING WHILE LOOP
+
+#include <stdio.h>
 int main()
 {
-    int a,i,f;
+    int num, i = 2;
     printf("Enter a number: ");
-    scanf("%d",&a);
-    f=0;
-    i=2;
-    while(i <= a/2)
+    scanf("%d", &num);
+    while (i <= num)
     {
-        if(a%i == 0)
-        { 
-            f=1;
+        if (num % i == 0)
             break;
-        } 
         i++;
     }
-    if(f==0)
-        printf("%d is a prime Number",a);
+    if (i == num)
+        printf("\n%d is a Prime Number", num);
     else
-        printf("%d is not Prime Number",a);
-    return 0; 
+        printf("\n%d is not a Prime Number", num);
+    return 0;
 }
-// clang primebywhile.c -o pp
